@@ -1,0 +1,59 @@
+/* Default styles */
+
+
+   html {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background-color 0.5s, color 0.5s, background-image 0.5s;
+  height: 100%;
+}
+
+
+
+
+
+
+
+/* Layout styling */
+.container {
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Light Theme */
+/* Light Theme */
+body.light-theme {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+/* Dark Theme */
+body.dark-theme {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Cute Theme */
+body.cute-theme {
+  background-color: #ffe4f2;
+  color: #7a0057;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+select {
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+select:focus {
+  outline: none;
+  border-color: #ffaad4;
+  box-shadow: 0 0 5px #ffaad4;
+}
